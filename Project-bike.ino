@@ -6,9 +6,9 @@ const char* ssid = "******";  // Replace with your Wi-Fi network name
 const char* password = "******";  // Replace with your Wi-Fi password
 
 const char* server = "api.thingspeak.com";
-unsigned long channelID = 2215783;
-const char* readAPIKey = "KAYKS7K0U2NEWN65";
-unsigned int dataFieldOne = 2;
+unsigned long channelID = *******; //replace with your Thingspeak channel ID
+const char* readAPIKey = "*******"; //replace with your Thingspeak "READ API"key
+unsigned int dataFieldOne = *;   //replace with the sensor's channel number
 
 float gasValue = 0.0;
 WiFiClient client;
